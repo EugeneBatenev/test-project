@@ -1,0 +1,19 @@
+{
+  "name": "simple-js-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --timeout 10000 --reporter mocha-allure-reporter",
+    "allure:report": "allure generate && allure open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "allure-mocha": "^3.0.0-beta.1",
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "mocha-allure-reporter": "^1.4.0"
+  }
+}
